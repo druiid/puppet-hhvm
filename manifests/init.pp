@@ -35,7 +35,7 @@
 #
 # Copyright 2011 Your name here, unless otherwise noted.
 #
-class hhvm ($version = '2.4.0' ) {
+class hhvm ($version = '2.4.0-1' ) {
 
   yumrepo { 'hop5':
     baseurl  => 'http://www.hop5.in/yum/el6/',
