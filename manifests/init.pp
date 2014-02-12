@@ -37,6 +37,10 @@
 #
 class hhvm ($version = '2.4.0-1' ) {
 
+  file { '/etc/yum.repos.d/hop5.repo':
+    ensure => present,
+  }
+
   yumrepo { 'hop5':
     enabled  => 1,
     priority => 1,
